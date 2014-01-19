@@ -34,4 +34,47 @@ function _changePass() {
     
 }
 
+function _deposit($user, $amount) {
+    include_once("db.php");
+
+    $db = connect_db();
+
+    // update balance += $amount
+
+}
+
+function _withdraw($user, $amount) {
+    include_once("db.php");
+
+    $db = connect_db();
+
+    // update balance -= $amount
+
+}
+
+function _transaction($user, $to, $amount) {
+    include_once("db.php");
+
+    $db = connect_db();
+
+    // update balance -= $amount ($user)
+    // update balance += $amount ($to)
+
+}
+
+function checkEnough($user, $amount) {
+    include_once("db.php");
+
+    $db = connect_db();
+
+    // select balance from db where user=$user
+    //
+    // if ($result >= $amount) {
+    //     return true;
+    // }
+    // else {
+    //     return false;
+    // }
+
+}
 ?>

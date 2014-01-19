@@ -28,6 +28,7 @@ function deposit() {
     "<form method=\"POST\" action=\"deposit.php\">" .
     "  <p>" .
     "  Amount: <input type=\"text\" name=\"deposit_amount\"/><br />" .
+    "  Password: <input type=\"password\" name=\"password\"/><br />" .
     "  </p>" .
     "  <p><input type=\"submit\" value=\"Deposit!\" /></p>" .
     "</form>";
@@ -41,6 +42,7 @@ function withdraw() {
     "<form method=\"POST\" action=\"withdraw.php\">" .
     "  <p>" .
     "  Amount: <input type=\"text\" name=\"withdraw_amount\"/><br />" .
+    "  Password: <input type=\"password\" name=\"password\"/><br />" .
     "  </p>" .
     "  <p><input type=\"submit\" value=\"Withdraw!\" /></p>" .
     "</form>";
@@ -55,6 +57,7 @@ function transaction() {
     "  <p>" .
     "  To: <input type=\"text\" name=\"transaction_to\"/><br />" .
     "  Amount: <input type=\"text\" name=\"transaction_amount\"/><br />" .
+    "  Password: <input type=\"password\" name=\"password\"/><br />" .
     "  </p>" .
     "  <p><input type=\"submit\" value=\"Transaction!\" /></p>" .
     "</form>";

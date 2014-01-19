@@ -1,6 +1,6 @@
 <?php
-    // include_once("model.php");
-    // 
+    include_once("model.php");
+
     if (validate_pass($_SESSION['user'], $_POST['old_pass'])) {
         if ($_POST['new_pass'] === $_POST['confirm_pass']) {
 
