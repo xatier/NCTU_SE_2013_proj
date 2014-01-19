@@ -4,6 +4,8 @@ function userInfo () {
     echo "print out all user Info<br/>";
     echo "username / balance";
     echo "</p>";
+    // include_once("model.php");
+    // _userInfo();
 }
 
 function changePass() {
